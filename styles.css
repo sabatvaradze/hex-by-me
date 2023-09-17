@@ -1,0 +1,47 @@
+.container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 95%;
+}
+body{
+    font-family: system-ui, -apple-system,
+      Roboto, 
+}
+
+.hex-Colors{
+    text-align: center;
+    
+}
+.colorText{
+    margin-top: 15%;
+    
+}
+.hex-Colors h1{
+    font-size: 70px;
+    animation: animatioColor 4s infinite alternate
+}
+
+@keyframes animatioColor{
+    0%{
+        color: purple;
+    }
+    20%{
+        color: rgb(68, 168, 111);
+    }
+    40%{
+        color: rgb(43, 51, 119);
+    }
+    60%{
+        color: rgb(157, 39, 39);
+    }
+    80%{
+        color: rgb(158, 130, 38);
+    }
+    100%{
+        color: rgb(17, 112, 120);
+    }
+
+
+}
